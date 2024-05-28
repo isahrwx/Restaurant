@@ -1,0 +1,137 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.header-menu-link{
+    font-size: 21px;
+    text-decoration: none;
+    margin: 10px 15px;
+    color: rgb(118, 118, 118);
+    padding: 10px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    transition-duration: 1s;
+}
+.header-menu-link:hover{
+   
+    background-color: rgb(190, 190, 190);
+    color: aliceblue;
+}
+.banner-img{
+    width: 100%;
+    height: 100vh;
+}
+.banner-container{
+    margin-bottom: 80px;
+}
+.about-catering-img{
+    margin-left: 100px;
+    width: 500px;
+    height: 600px;
+}
+.about-catering-text{
+    width: 500px;
+    height: 500px;
+    margin-right: 50px;
+  
+    
+}
+.about-catering-text h1{
+   font-weight: 100;
+   margin: 0 120px;
+   letter-spacing: 4px;
+}
+.about-catering-text h3{
+    font-weight: 100;
+    margin: 20px 140px;
+    letter-spacing: 2px;
+}
+.about-catering-text p{
+    font-size: 22px;
+}
+span{
+    background-color:rgb(222, 221, 221) ;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+.color-gray{
+    color: rgb(112, 111, 111);
+}
+hr{
+    height: .5px;
+    width: 1050px;
+   border:none;
+   background-color: gainsboro;
+    margin:100px 100px 100px 60px;
+}
+.our-menu-text{
+    margin-left: 100px;
+    
+}
+.our-menu-img{
+    margin-right:100px ;
+}
+.our-menu-text h1{
+    font-weight: 100;
+    margin: 0 145px;
+    letter-spacing: 4px;
+}
+.our-menu-text h2{
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.our-menu-text p{
+    letter-spacing: 1px;
+  color: rgb(112, 111, 111);
+}
+.contact-container{
+    margin: 0 100px;
+}
+.contact-container h1{
+    font-weight: 100;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+.contact-container h5{
+    font-size: 17px;
+    line-height: 30px;
+    font-weight:500;
+}
+.contact-container h3{
+    color: rgb(0, 113, 142);
+}
+input,textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: none;
+    border-bottom:1px solid gainsboro ;
+    font-size: 17px;
+}
+input[type=submit]{
+    background-color: rgb(92, 134, 92);
+  border-radius: 9px;
+  color: aliceblue;
+  transition-duration: 1s ;
+}
+input[type=submit]:hover{
+    background-color: aliceblue;
+    color: rgb(92, 134, 92);
+}
+.footer-container{
+    width: 100%;
+ padding: 10px;
+    background-color: rgb(92, 134, 92);
+    color: rgb(240, 240, 240);
+    text-align: center;
+}
+.footer-container a{
+    text-decoration: none;
+    color: rgb(40, 53, 53)
+}
